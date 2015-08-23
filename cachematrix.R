@@ -11,7 +11,7 @@
 ##    makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed), 
 ##    then the cachesolve should retrieve the inverse from the cache.
 
-## Sample test run log has been included in the file TEST_RUNS.md
+## Sample test run log with comments have been included in the file TEST_RUNS.md
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -72,5 +72,3 @@ cacheSolve <- function(x, ...) {
         ## return the inverse
         return(inverseCache)
 }
-
-
